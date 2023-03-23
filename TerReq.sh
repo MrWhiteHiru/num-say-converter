@@ -1,0 +1,14 @@
+#!bin/bash
+pkg update && pkg upgrade -y
+clear
+pkg install python -y 
+clear
+echo "run num.py file [python num.py]"
+sleep 5
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
+
